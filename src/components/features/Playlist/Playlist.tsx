@@ -4,7 +4,7 @@ import { Section } from "../../ui/Section/Section";
 import { Container } from "../../ui/Container/Container";
 import { Typography } from "../../ui/Typography/Typography";
 
-import Linha from "../../../assets/linha.png";
+import Linha from "../../../assets/Linha.png";
 
 import type { PlaylistProps } from "./Playlist.types";
 import { playlistStyles } from "./Playlist.styles";
