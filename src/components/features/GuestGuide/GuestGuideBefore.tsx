@@ -1,7 +1,7 @@
 import { Typography } from "../../ui/Typography/Typography";
 import { guestGuideStyles } from "./GuestGuide.styles";
-import Relogio from "../../../assets/relogioF.png";
-import Rio from "../../../assets/rj.png";
+import Relogio from "../../../assets/RelogioF.png";
+import Rio from "../../../assets/Rj.png";
 
 export function GuestGuideBefore() {
     return (

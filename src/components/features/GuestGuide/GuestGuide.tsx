@@ -2,9 +2,9 @@ import { Container } from "../../ui/Container/Container";
 import { Section } from "../../ui/Section/Section";
 import { Typography } from "../../ui/Typography/Typography";
 
-import Logo from "../../../assets/logo.png";
+import Logo from "../../../assets/Logo.png";
 import Heart from "../../../assets/Coração.png";
-import Linha from "../../../assets/linha.png";
+import Linha from "../../../assets/Linha.png";
 
 import type { GuestGuideProps } from "./GuestGuide.types";
 import { guestGuideStyles } from "./GuestGuide.styles";

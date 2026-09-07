@@ -6,7 +6,7 @@ import type { StoryContentProps } from "./StoryContent.types";
 
 import { storyContentStyles } from "./StoryContent.styles";
 
-import StoryDivider from "../../../assets/linha.png";
+import StoryDivider from "../../../assets/Linha.png";
 
 export function StoryContent({
 

@@ -1,6 +1,6 @@
 import { Typography } from "../../ui/Typography/Typography";
 import { guestGuideStyles } from "./GuestGuide.styles";
-import Crianca from "../../../assets/crianca.png";
+import Crianca from "../../../assets/Crianca.png";
 
 export function GuestGuideChildren() {
     return (

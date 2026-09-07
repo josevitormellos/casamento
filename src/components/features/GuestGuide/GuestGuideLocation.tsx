@@ -1,7 +1,7 @@
 import { Typography } from "../../ui/Typography/Typography";
 import { guestGuideStyles } from "./GuestGuide.styles";
 
-import Carro from "../../../assets/carroF.png";
+import Carro from "../../../assets/CarroF.png";
 import Local from "../../../assets/Local.png";
 import Relogio from "../../../assets/Relogio.png";
 

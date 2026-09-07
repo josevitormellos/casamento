@@ -1,6 +1,6 @@
 import { Typography } from "../../ui/Typography/Typography";
 import { guestGuideStyles } from "./GuestGuide.styles";
-import Presente from "../../../assets/presente.png";
+import Presente from "../../../assets/Presente.png";
 
 export function GuestGuideGifts() {
     return (

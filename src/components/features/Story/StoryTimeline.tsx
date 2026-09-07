@@ -6,11 +6,11 @@ import { StoryGallery } from "./StoryGallery";
 
 import { storyTimelineStyles } from "./StoryTimeline.styles";
 
-import PathOne from "../../../assets/caminho1.png";
-import PathTwo from "../../../assets/caminho2.png";
-import PathThree from "../../../assets/caminho3.png";
-import PathFour from "../../../assets/caminho4.png";
-import PathFive from "../../../assets/caminho5.png";
+import PathOne from "../../../assets/Caminho1.png";
+import PathTwo from "../../../assets/Caminho2.png";
+import PathThree from "../../../assets/Caminho3.png";
+import PathFour from "../../../assets/Caminho4.png";
+import PathFive from "../../../assets/Caminho5.png";
 
 export function StoryTimeline({
 

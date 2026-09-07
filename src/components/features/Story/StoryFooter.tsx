@@ -1,4 +1,4 @@
-import StoryDivider from "../../../assets/linha.png";
+import StoryDivider from "../../../assets/Linha.png";
 
 import { storyFooterStyles } from "./StoryFooter.styles";
 

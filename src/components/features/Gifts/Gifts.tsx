@@ -11,8 +11,8 @@ import { giftsStyles } from "./Gifts.styles";
 
 import type { GiftsProps } from "./Gifts.types";
 
-import Linha from "../../../assets/linha.png"
-import Logo from "../../../assets/logo.png"
+import Linha from "../../../assets/Linha.png"
+import Logo from "../../../assets/Logo.png"
 import Heart from "../../../assets/Coração.png";
 
 import { typography } from "../../../styles/typography"

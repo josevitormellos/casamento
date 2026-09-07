@@ -1,6 +1,6 @@
 import { Typography } from "../../ui/Typography/Typography";
 import { guestGuideStyles } from "./GuestGuide.styles";
-import Roupa from "../../../assets/roupa.png";
+import Roupa from "../../../assets/Roupa.png";
 
 export function GuestGuideDressCode() {
     return (

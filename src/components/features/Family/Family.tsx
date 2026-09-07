@@ -7,7 +7,7 @@ import type { FamilyProps } from "./Family.types";
 import { familyStyles } from "./Family.styles";
 import { typography } from "../../../styles/typography";
 
-import Linha from "../../../assets/linha.png";
+import Linha from "../../../assets/Linha.png";
 import Lua from "../../../assets/Lua.png";
 import FlorLimao from "../../../assets/Flor6.png";
 import FlorFolhas from "../../../assets/Flor1.png";

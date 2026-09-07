@@ -1,4 +1,4 @@
-import Background from "../../../assets/background.png";
+import Background from "../../../assets/Background.png";
 
 import { heroSceneStyles } from "./HeroScene.styles";
 

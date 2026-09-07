@@ -1,6 +1,6 @@
 import { Typography } from "../../ui/Typography/Typography";
 import { guestGuideStyles } from "./GuestGuide.styles";
-import Camera from "../../../assets/camera.png";
+import Camera from "../../../assets/Camera.png";
 
 export function GuestGuideShare() {
     return (
