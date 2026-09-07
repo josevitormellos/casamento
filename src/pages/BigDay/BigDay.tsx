@@ -3,7 +3,7 @@ import Gravata from "../../assets/Gravata.png";
 import Recepcao from "../../assets/Recepcao.png";
 import Carro from "../../assets/Carro.png";
 import Igreja from "../../assets/Igreja.png";
-import Linha from "../../assets/linha.png";
+import Linha from "../../assets/Linha.png";
 
 import { Section } from "../../components/ui/Section/Section";
 import { Container } from "../../components/ui/Container/Container";
