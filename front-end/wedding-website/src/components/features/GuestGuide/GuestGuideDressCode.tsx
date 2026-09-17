@@ -1,7 +1,7 @@
 import { Typography } from "../../ui/Typography/Typography";
 import { guestGuideStyles } from "./GuestGuide.styles";
 import Roupa from "../../../assets/Roupa.png";
-
+import Linha from "../../../assets/linha.png";
 export function GuestGuideDressCode() {
     return (
         <section className={guestGuideStyles.panel}>
@@ -22,13 +22,11 @@ export function GuestGuideDressCode() {
                     DRESS CODE
                 </Typography>
 
-                <div className={guestGuideStyles.smallDivider}>
-                    <span />
-                    <span className={guestGuideStyles.dividerHeart}>
-                        ♥
-                    </span>
-                    <span />
-                </div>
+                 <img
+                    src={Linha}
+                    alt=""
+                    className={guestGuideStyles.smallDivider}
+                />
 
                 <Typography
                     color="secondary"
