@@ -4,7 +4,7 @@ import { guestGuideStyles } from "./GuestGuide.styles";
 import Carro from "../../../assets/CarroF.png";
 import Local from "../../../assets/Local.png";
 import Relogio from "../../../assets/Relogio.png";
-import Linha from "../../../assets/linha.png";
+import Linha from "../../../assets/Linha.png";
 
 export function GuestGuideLocation() {
     return (

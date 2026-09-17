@@ -2,7 +2,7 @@ import { Typography } from "../../ui/Typography/Typography";
 import { guestGuideStyles } from "./GuestGuide.styles";
 import Relogio from "../../../assets/RelogioF.png";
 import Rio from "../../../assets/Rj.png";
-import Linha from "../../../assets/linha.png";
+import Linha from "../../../assets/Linha.png";
 export function GuestGuideBefore() {
     return (
         <section className={guestGuideStyles.panelBefore}>

@@ -1,7 +1,7 @@
 import { Typography } from "../../ui/Typography/Typography";
 import { guestGuideStyles } from "./GuestGuide.styles";
 import Camera from "../../../assets/Camera.png";
-import Linha from "../../../assets/linha.png";
+import Linha from "../../../assets/Linha.png";
 
 export function GuestGuideShare() {
     return (

@@ -1,7 +1,7 @@
 import { Typography } from "../../ui/Typography/Typography";
 import { guestGuideStyles } from "./GuestGuide.styles";
 import Roupa from "../../../assets/Roupa.png";
-import Linha from "../../../assets/linha.png";
+import Linha from "../../../assets/Linha.png";
 export function GuestGuideDressCode() {
     return (
         <section className={guestGuideStyles.panel}>

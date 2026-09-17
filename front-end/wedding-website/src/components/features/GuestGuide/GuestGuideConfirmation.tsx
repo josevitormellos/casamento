@@ -1,7 +1,7 @@
 import { Typography } from "../../ui/Typography/Typography";
 import { guestGuideStyles } from "./GuestGuide.styles";
 import Convite from "../../../assets/Convite.png";
-import Linha from "../../../assets/linha.png";
+import Linha from "../../../assets/Linha.png";
 
 export function GuestGuideConfirmation() {
     return (
