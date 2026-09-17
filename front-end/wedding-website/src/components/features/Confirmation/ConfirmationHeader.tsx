@@ -1,5 +1,5 @@
 import { Typography } from "../../ui/Typography/Typography";
-import Logo from "../../../assets/logo.png";
+import Logo from "../../../assets/Logo.png";
 import Lua from "../../../assets/Lua.png";
 import { confirmationStyles } from "./Confirmation.styles";
 

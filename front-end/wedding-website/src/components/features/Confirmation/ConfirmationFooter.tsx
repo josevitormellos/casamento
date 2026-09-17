@@ -1,4 +1,4 @@
-import Rio from "../../../assets/rj.png";
+import Rio from "../../../assets/Rj.png";
 import { Typography } from "../../ui/Typography/Typography";
 import { confirmationStyles } from "./Confirmation.styles";
 import { typography } from "../../../styles/typography";
