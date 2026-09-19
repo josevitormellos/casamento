@@ -28,6 +28,19 @@ export function ConfirmationFooter() {
                 NOSSA FAMÍLIA
             </div>
 
+            <a
+                href="#inicio"
+                className={confirmationStyles.backToTop}
+            >
+                <span className={confirmationStyles.backToTopIcon}>
+                    ↑
+                </span>
+
+                <span>
+                    VOLTAR AO INÍCIO
+                </span>
+            </a>
+
             <div className={confirmationStyles.footerImage}>
                 <img
                     src={Rio}

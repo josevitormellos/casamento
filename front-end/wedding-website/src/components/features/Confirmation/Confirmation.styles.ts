@@ -335,4 +335,39 @@ successButton: `
     duration-300
     hover:bg-[#4A5231]
 `,
+backToTop: `
+    absolute
+    left-1/2
+    -translate-x-1/2
+    bottom-[78px]
+    z-30
+    flex
+    items-center
+    justify-center
+    gap-2
+    rounded-full
+    border
+    border-[#C8AF88]
+    bg-[#FBF8F2]
+    px-4
+    py-2
+    font-body
+    text-[0.48rem]
+    uppercase
+    tracking-[0.14em]
+    text-[#59613B]
+    shadow-[0_3px_10px_rgba(89,97,59,0.08)]
+    transition-all
+    duration-300
+    hover:bg-[#F5EEE3]
+`,
+
+backToTopIcon: `
+    flex
+    items-center
+    justify-center
+    text-[0.9rem]
+    leading-none
+    text-[#C89A36]
+`,
 };

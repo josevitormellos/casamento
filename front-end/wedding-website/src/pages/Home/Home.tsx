@@ -6,13 +6,13 @@ export function Home() {
 
     return (
 
-        <main className={homeStyles.container}>
+        <main id="inicio" className={homeStyles.container}>
 
             <Hero
 
-                brideName="Natalia"
+                brideName="Luiz"
 
-                groomName="Luiz"
+                groomName="Natalia"
 
                 subtitle="Sob a mesma lua, começamos nossa família."
 
