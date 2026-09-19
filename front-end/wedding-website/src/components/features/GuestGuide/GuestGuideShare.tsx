@@ -53,7 +53,12 @@ export function GuestGuideShare() {
                 </Typography>
 
                 {/* Instagram */}
-                <div className={guestGuideStyles.instagramBox}>
+                <a
+                    href="https://www.instagram.com/luna_17102026?stkn=MTVqdG10ZHN2MTEzdg=="
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={guestGuideStyles.instagramBox}
+                >
                     <div className={guestGuideStyles.instagramIcon}>
                         ◎
                     </div>
@@ -73,11 +78,7 @@ export function GuestGuideShare() {
                             @luna_17102026
                         </Typography>
                     </div>
-
-                    <span className={guestGuideStyles.instagramHeart}>
-                        ♡
-                    </span>
-                </div>
+                </a>
 
                 {/* Texto final */}
                 <Typography

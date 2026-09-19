@@ -64,7 +64,7 @@ export function Story() {
     id: 3,
       photo: {
         id: 3,
-        src: Story4,
+        src: Story3,
         alt: "Aniversário do Luiz"
     },
 
@@ -98,7 +98,7 @@ export function Story() {
         
     photo: {
         id: 4,
-        src: Story3,
+        src: Story4,
         alt: "Aniversário da Natália"
     },
 
@@ -179,7 +179,7 @@ export function Story() {
 
             date: "13 · 09 · 2025",
 
-            title: "Itapava",
+            title: "Itaipava",
 
             description:
                 "Um fim de semana inesquecível e o nosso segundo beijo. A partir daí, não nos separamos mais.",

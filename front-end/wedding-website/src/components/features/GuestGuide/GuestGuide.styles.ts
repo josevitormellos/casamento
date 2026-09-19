@@ -452,6 +452,8 @@ instagramBox: `
     px-4
     py-3
     text-left
+    no-underline
+    cursor-pointer
 `,
 
 instagramIcon: `
