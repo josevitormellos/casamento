@@ -38,7 +38,7 @@ export function GuestGuideConfirmation() {
                 </Typography>
 
                 <a 
-                    href="/confirmacao" 
+                    href="#confirmacao" 
                     className={guestGuideStyles.confirmationButton} 
                 >
                     <span className={guestGuideStyles.confirmationButtonIcon}> 
