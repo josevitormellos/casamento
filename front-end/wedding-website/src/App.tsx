@@ -6,6 +6,7 @@ import { Family } from "./pages/Family/Family";
 import { Playlist } from "./pages/Playlist/Playlist";
 import { GuestGuide } from "./pages/GuestGuide/GuestGuide";
 import { Confirmation } from "./pages/Confirmation/Confirmation";
+import { WeddingActions } from "./components/features/WeddingActions/WeddingActions";
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         <>
 
             <Home />
+            <WeddingActions />
             <Story />
             <BigDay/>
             <Gifts />

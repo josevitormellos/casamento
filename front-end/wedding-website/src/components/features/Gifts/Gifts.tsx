@@ -51,14 +51,14 @@ export function Gifts({ gifts }: GiftsProps) {
 
                         <img
                             src={Logo}
-                            alt="Logo Natália e Luis"
+                            alt="Logo Natália e Luiz"
                             className={giftsStyles.logo}
                         />
 
                         <Typography
                             className={giftsStyles.names}
                         >
-                            Luis & Natália
+                            Luiz & Natália
                         </Typography>
 
                         <img

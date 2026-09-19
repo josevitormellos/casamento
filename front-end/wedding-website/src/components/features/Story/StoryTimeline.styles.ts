@@ -48,7 +48,7 @@ export const storyTimelineStyles = {
     left-[45%]
     -translate-x-1/2
 
-    top-76
+    top-43
     rotate-160
     pointer-events-none
     select-none
@@ -64,7 +64,7 @@ pathThree: `
     left-[68%]
     -translate-x-1/2
 
-    top-42
+    top-59
      rotate-35
     pointer-events-none
     select-none

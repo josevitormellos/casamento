@@ -44,7 +44,7 @@ export function Story() {
     id: 2,
                     photo: {
                 id: 2,
-                src: Story4,
+                src: Story2,
                 alt: "O reencontro"
             },
 
@@ -62,15 +62,15 @@ export function Story() {
 {
     
     id: 3,
-    photo: {
+      photo: {
         id: 3,
-        src: Story3,
-        alt: "Aniversário da Natália"
+        src: Story4,
+        alt: "Aniversário do Luiz"
     },
 
-    date: "11 · 04 · 2025",
+     date: "10 · 02 · 2025",
 
-    title: "Aniversário da Natália",
+    title: "Aniversário do Luiz",
 
     description: "",
 
@@ -95,16 +95,16 @@ export function Story() {
 
         {
             id: 5,
-
-          photo: {
-        id: 5,
-        src: Story2,
-        alt: "Aniversário do Luiz"
+        
+    photo: {
+        id: 4,
+        src: Story3,
+        alt: "Aniversário da Natália"
     },
 
-    date: "10 · 02 · 2025",
+        date: "11 · 04 · 2025",
 
-    title: "Aniversário do Luiz",
+    title: "Aniversário da Natália",
 
     description: "",
 
@@ -174,7 +174,7 @@ export function Story() {
            photo: {
                 id: 8,
                 src: Story8,
-                alt: "Itapava"
+                alt: "Itaipava"
             },
 
             date: "13 · 09 · 2025",
@@ -258,7 +258,7 @@ export function Story() {
 
                         title="Nossa história"
 
-                        description="Dois caminhos diferentes se cruzaram por obra de Deus. Entre reencontros, amizades, viagens e muitos sinais descobrimos que os melhores planos são aqueles que Ele escreve para nós. Essa é a nossa história."
+                        description="Dois caminhos diferentes se cruzaram por obra de Deus. Entre reencontros, amizades, viagens e muitos sinais, descobrimos que os melhores planos são aqueles que Ele escreve para nós. Essa é a nossa história."
 
                     />
 

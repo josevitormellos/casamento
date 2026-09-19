@@ -49,16 +49,15 @@ export function GiftCard({
                     R$ {gift.price.toFixed(0)}
                 </Typography>
 
-                <button
-                    type="button"
-                    className={giftCardStyles.button}
-                >
-                    ESCOLHER PAGAMENTO
-
-                    <span className={giftCardStyles.buttonHeart}>
-                        ♡
-                    </span>
-                </button>
+                <a
+                        href={gift.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={giftCardStyles.button}
+                    >
+                        <span className={giftCardStyles.buttonHeart}>♥</span>
+                        PRESENTEAR
+                    </a>
             </div>
 
         </article>

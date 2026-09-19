@@ -61,7 +61,7 @@ export function BigDay() {
 
                         date="17/10/2026"
 
-                        time="11h00"
+                        time="10h20"
 
                         location="Igreja Nossa Senhora do Brasil - Urca"
 
@@ -83,7 +83,7 @@ export function BigDay() {
 
                         time="13h00"
 
-                        location="Avenida João Luiz Alves, 340, na Urca"
+                        location="Flutuante Rio em frente ao 338 - Av. João Luiz Alves"
 
                     />
 

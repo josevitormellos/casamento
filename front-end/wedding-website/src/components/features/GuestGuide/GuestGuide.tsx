@@ -11,7 +11,6 @@ import { guestGuideStyles } from "./GuestGuide.styles";
 import { GuestGuideDressCode } from "./GuestGuideDressCode";
 import { GuestGuideLocation } from "./GuestGuideLocation";
 import { GuestGuideBefore } from "./GuestGuideBefore";
-import { GuestGuideChildren } from "./GuestGuideChildren";
 import { GuestGuideShare } from "./GuestGuideShare";
 import { GuestGuideGifts } from "./GuestGuideGifts";
 import { GuestGuideConfirmation } from "./GuestGuideConfirmation";
@@ -77,7 +76,6 @@ export function GuestGuide({ ...props }: GuestGuideProps) {
                         <GuestGuideDressCode />
                         <GuestGuideLocation />
                         <GuestGuideBefore />
-                        <GuestGuideChildren />
                         <GuestGuideShare />
                         <GuestGuideGifts />
                         <GuestGuideConfirmation />

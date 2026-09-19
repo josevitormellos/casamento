@@ -8,6 +8,7 @@ export interface Gift {
     description: string;
 
     price: number;
+    url: string;
 }
 
 export interface GiftsProps {
