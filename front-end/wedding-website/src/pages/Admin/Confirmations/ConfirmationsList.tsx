@@ -4,6 +4,10 @@ import {
     type Confirmation,
 } from "../../../services/admin/admin";
 import { confirmationsListStyles } from "./ConfirmationsList.styles";
+import {
+    exportConfirmationsCsv,
+    exportConfirmationsPdf,
+} from "../../../services/admin/export";
 
 interface ConfirmationsProps {
     token: string;
@@ -58,15 +62,38 @@ export function Confirmations({
 
     return (
         <main className={confirmationsListStyles.container}>
-            <div className={confirmationsListStyles.header}>
-                <h1 className={confirmationsListStyles.title}>
-                    Confirmações de presença
-                </h1>
+           <div className={confirmationsListStyles.header}>
 
-                <p className={confirmationsListStyles.total}>
-                    Total de cadastros:{" "}
-                    <strong>{total}</strong>
-                </p>
+                <div>
+                    <h1 className={confirmationsListStyles.title}>
+                        Confirmações de presença
+                    </h1>
+
+                    <p className={confirmationsListStyles.total}>
+                        Total de cadastros: <strong>{total}</strong>
+                    </p>
+                </div>
+
+                <div className={confirmationsListStyles.actions}>
+
+                    <button
+                        type="button"
+                        onClick={() => exportConfirmationsCsv(confirmations)}
+                        className={confirmationsListStyles.exportButton}
+                    >
+                        ↓ CSV
+                    </button>
+
+                    <button
+                        type="button"
+                        onClick={() => exportConfirmationsPdf(confirmations)}
+                        className={confirmationsListStyles.exportButton}
+                    >
+                        ↓ PDF
+                    </button>
+
+                </div>
+
             </div>
 
             <div className={confirmationsListStyles.tableWrapper}>
