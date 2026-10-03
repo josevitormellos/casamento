@@ -8,11 +8,10 @@ export const confirmationsListStyles = {
     `,
 
     header: `
-        w-full
-        max-w-[1400px]
-        mx-auto
-        mb-6
-    `,
+    w-full max-w-[1400px] mx-auto mb-6
+    flex flex-col gap-2
+    md:flex-row md:items-center md:justify-between
+`,
 
     title: `
         font-heading
@@ -71,4 +70,20 @@ export const confirmationsListStyles = {
         font-body
         text-red-700
     `,
+    actions: `
+    flex flex-wrap items-center gap-3 mt-4
+`,
+
+exportButton: `
+    flex items-center justify-center
+    rounded-lg
+    border border-[#C8AF88]
+    bg-[#59613B]
+    px-5 py-2.5
+    font-body text-[0.65rem]
+    uppercase tracking-[0.1em]
+    text-white
+    transition-all duration-300
+    hover:bg-[#4A5231]
+`,
 };
