@@ -52,4 +52,34 @@ export class ConfirmationService {
             confirmedAt: row.confirmed_at,
         };
     }
+    async getAll(): Promise<Confirmation[]> {
+    const query = `
+        SELECT
+            id,
+            name,
+            phone,
+            email,
+            has_dietary_restriction,
+            dietary_restriction,
+            shoe_size,
+            message,
+            confirmed_at
+        FROM confirmations
+        ORDER BY confirmed_at DESC;
+    `;
+
+    const result = await pool.query(query);
+
+    return result.rows.map((row) => ({
+        id: row.id,
+        name: row.name,
+        phone: row.phone,
+        email: row.email,
+        hasDietaryRestriction: row.has_dietary_restriction,
+        dietaryRestriction: row.dietary_restriction ?? undefined,
+        shoeSize: row.shoe_size ?? undefined,
+        message: row.message ?? undefined,
+        confirmedAt: row.confirmed_at,
+    }));
+}
 }

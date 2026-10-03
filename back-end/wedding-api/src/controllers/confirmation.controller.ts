@@ -18,4 +18,24 @@ export async function createConfirmation(
             message: "Não foi possível registrar a confirmação.",
         });
     }
+    
+}
+export async function getConfirmations(
+    _req: Request,
+    res: Response
+): Promise<void> {
+    try {
+        const confirmations = await confirmationService.getAll();
+
+        res.json({
+            total: confirmations.length,
+            confirmations,
+        });
+    } catch (error) {
+        console.error("Erro ao buscar confirmações:", error);
+
+        res.status(500).json({
+            message: "Não foi possível buscar as confirmações.",
+        });
+    }
 }

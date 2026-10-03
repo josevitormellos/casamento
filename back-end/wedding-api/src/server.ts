@@ -2,6 +2,7 @@ import express from "express";
 import cors from "cors";
 import healthRouter from "./routes/health.routes.js";
 import confirmationRouter from "./routes/confirmation.routes.js";
+import adminRouter from "./routes/admin.routes.js";
 import { pool } from "./database/connection.js";
 
 const app = express();
@@ -17,6 +18,7 @@ app.use(express.json());
 
 app.use("/api", healthRouter);
 app.use("/api/confirmacoes", confirmationRouter);
+app.use("/api/admin", adminRouter);
 
 pool.query("SELECT NOW()")
     .then(() => {

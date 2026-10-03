@@ -7,26 +7,29 @@ import { Playlist } from "./pages/Playlist/Playlist";
 import { GuestGuide } from "./pages/GuestGuide/GuestGuide";
 import { Confirmation } from "./pages/Confirmation/Confirmation";
 import { WeddingActions } from "./components/features/WeddingActions/WeddingActions";
+import { Admin } from "./pages/Admin/Admin";
 
 function App() {
 
+    const pathname = window.location.pathname;
+
+    if (pathname === "/admin" || pathname === "/admin/confirmacoes") {
+        return <Admin />;
+    }
+
     return (
-
         <>
-
             <Home />
             <WeddingActions />
             <Story />
-            <BigDay/>
+            <BigDay />
             <Gifts />
-            <Family/>
-            <Playlist/>
-            <GuestGuide/>
+            <Family />
+            <Playlist />
+            <GuestGuide />
             <Confirmation />
         </>
-
     );
-
 }
 
 export default App;
