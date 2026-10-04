@@ -9,6 +9,7 @@ export interface Gift {
 
     price: number;
     url: string;
+     purchased: boolean;
 }
 
 export interface GiftsProps {

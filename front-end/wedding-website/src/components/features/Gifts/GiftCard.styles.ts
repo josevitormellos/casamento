@@ -112,6 +112,17 @@ price: `
 
     text-primary
 `,
+purchasedButton: `
+    mt-1 mb-3 flex items-center justify-center gap-2
+    w-[calc(100%-24px)]
+    rounded-md
+    border border-[#B85C5C]
+    bg-[#B85C5C]
+    px-2 py-2
+    text-[0.52rem]
+    tracking-[0.08em]
+    text-white
+`,
 bottom: `
     w-full
 

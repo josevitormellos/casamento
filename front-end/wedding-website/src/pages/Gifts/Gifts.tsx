@@ -67,7 +67,8 @@ export function Gifts() {
         title: "Café da manhã em Paris",
         description: "Café da manhã especial com vista para a Torre Eiffel.",
         price: 240,
-        url: "https://invoice.infinitepay.io/melloconsult-1su/tigUnmEuhR"
+        url: "https://invoice.infinitepay.io/melloconsult-1su/tigUnmEuhR",
+        purchased: true
     },
 
     {
@@ -76,7 +77,8 @@ export function Gifts() {
         title: "Jantar romântico na praia",
         description: "Jantar à luz de velas à beira-mar na Riviera Albanesa.",
         price: 640,
-        url: "https://invoice.infinitepay.io/melloconsult-1su/PlfFWNVcCx "
+        url: "https://invoice.infinitepay.io/melloconsult-1su/PlfFWNVcCx ",
+        purchased: true
     },
 
     {
@@ -85,7 +87,8 @@ export function Gifts() {
         title: "Massagem para o casal",
         description: "Momento de relaxamento e cuidado para os dois.",
         price: 440,
-        url: "https://invoice.infinitepay.io/melloconsult-1su/aWllKIL6Lt"
+        url: "https://invoice.infinitepay.io/melloconsult-1su/aWllKIL6Lt",
+        purchased: false
     },
 
     {
@@ -94,7 +97,8 @@ export function Gifts() {
         title: "Experiência gastronômica",
         description: "Degustação de queijos, vinhos e delícias francesas.",
         price: 520,
-        url: "https://invoice.infinitepay.io/melloconsult-1su/KLXUirfhLw "
+        url: "https://invoice.infinitepay.io/melloconsult-1su/KLXUirfhLw ",
+        purchased: false
     },
 
     {
@@ -103,7 +107,8 @@ export function Gifts() {
         title: "Passeio de barco em Kotor",
         description: "Passeio de barco pela Baía de Kotor ao pôr do sol.",
         price: 560,
-        url: "https://invoice.infinitepay.io/melloconsult-1su/LXya4DdMo0"
+        url: "https://invoice.infinitepay.io/melloconsult-1su/LXya4DdMo0",
+        purchased: false
     },
 
     {
@@ -111,8 +116,10 @@ export function Gifts() {
         image: Gift06,
         title: "Visita ao Louvre",
         description: "Tour pelo Louvre com guia especializado. ",
-        price: 300,
-        url: "https://invoice.infinitepay.io/melloconsult-1su/aWllKIL6Lt"
+        price: 480,
+        url: "https://invoice.infinitepay.io/melloconsult-1su/LEeg3yXyfg",
+        purchased: false
+        
     },
 
     {
@@ -120,8 +127,9 @@ export function Gifts() {
         image: Gift07,
         title: "Dia na Riviera Albanesa",
         description: "Passeio de dia inteiro pelas praias paradisíacas da Albânia.",
-        price: 480,
-        url: "https://invoice.infinitepay.io/melloconsult-1su/LEeg3yXyfg"
+        price: 680,
+        url: "https://invoice.infinitepay.io/melloconsult-1su/oLnHwoohcX",
+        purchased: false
     },
 
     {
@@ -129,8 +137,9 @@ export function Gifts() {
         image: Gift08,
         title: "Experiência para o Casal - Paris",
         description: "Momento de bem-estar inesquecível pela cidade luz.",
-        price: 680,
-        url: "https://invoice.infinitepay.io/melloconsult-1su/oLnHwoohcX"
+        price: 110,
+        url: "https://invoice.infinitepay.io/melloconsult-1su/NrbzjGLLcU",
+        purchased: false
     },
 
     {
@@ -139,7 +148,8 @@ export function Gifts() {
         title: "Noite romântica",
         description: "Noite especial com decoração romântica no hotel.",
         price: 450,
-        url: "https://invoice.infinitepay.io/melloconsult-1su/DyFPX4f7dL"
+        url: "https://invoice.infinitepay.io/melloconsult-1su/DyFPX4f7dL",
+        purchased: false
     },
 
     {
@@ -148,7 +158,8 @@ export function Gifts() {
         title: "Passeio de Iate",
         description: "Experiência exclusiva em late por Montenegro.",
         price: 930,
-        url: "https://invoice.infinitepay.io/melloconsult-1su/CknE1E3j8g"
+        url: "https://invoice.infinitepay.io/melloconsult-1su/CknE1E3j8g",
+        purchased: false
     },
     {
     id: 11,
@@ -156,7 +167,8 @@ export function Gifts() {
     title: "Piquenique em Paris",
     description: "Piquenique romântico com queijos, frutas e vinho em um parque parisiense.",
     price: 160,
-    url: "https://invoice.infinitepay.io/melloconsult-1su/76F4JNgMu3"
+    url: "https://invoice.infinitepay.io/melloconsult-1su/76F4JNgMu3",
+        purchased: true
 },
 
 {
@@ -165,7 +177,8 @@ export function Gifts() {
     title: "Trilha em Montenegro",
     description: "Trilha guiada com paisagens incríveis e experiência inesquecível.",
     price: 170,
-    url: "https://invoice.infinitepay.io/melloconsult-1su/ECkZoVCyzP "
+    url: "https://invoice.infinitepay.io/melloconsult-1su/ECkZoVCyzP ",
+    purchased: true
 },
 
 {
@@ -174,7 +187,8 @@ export function Gifts() {
     title: "Pôr do sol na Albânia",
     description: "Admire o pôr do sol em um dos lugares mais lindos da Albânia.",
     price: 240,
-    url: "https://invoice.infinitepay.io/melloconsult-1su/TL5CrouOdQ"
+    url: "https://invoice.infinitepay.io/melloconsult-1su/TL5CrouOdQ",
+    purchased: false
 },
 
 {
@@ -183,7 +197,8 @@ export function Gifts() {
     title: "Tour romântico em Paris",
     description: "Passeio privativo pelos pontos turísticos mais românticos.",
     price: 480,
-    url: "https://invoice.infinitepay.io/melloconsult-1su/2zNBNGr9PB"
+    url: "https://invoice.infinitepay.io/melloconsult-1su/2zNBNGr9PB",
+    purchased: false
 },
 
 {
@@ -192,7 +207,8 @@ export function Gifts() {
     title: "Day Spa para o casal",
     description: "Dia de spa dedicado ao casal em um ambiente relaxante.",
     price: 1220,
-    url: "https://invoice.infinitepay.io/melloconsult-1su/UDqdoWWPLG "
+    url: "https://invoice.infinitepay.io/melloconsult-1su/UDqdoWWPLG ",
+    purchased: false
 },
 
 {
@@ -201,7 +217,8 @@ export function Gifts() {
     title: "Passeio à Gruta Azul",
     description: "Passeio de barco até a famosa Gruta Azul na Albânia.",
     price: 880,
-    url: "https://invoice.infinitepay.io/melloconsult-1su/ecoU2TYz9X"
+    url: "https://invoice.infinitepay.io/melloconsult-1su/ecoU2TYz9X",
+    purchased: false
 },
 
 {
@@ -210,7 +227,8 @@ export function Gifts() {
     title: "Degustação de vinhos",
     description: "Degustação de vinhos em uma vinícola na Europa.",
     price: 630,
-    url: "https://invoice.infinitepay.io/melloconsult-1su/eLvNIsN3H6"
+    url: "https://invoice.infinitepay.io/melloconsult-1su/eLvNIsN3H6",
+    purchased: false
 },
 
 {
@@ -219,7 +237,8 @@ export function Gifts() {
     title: "Passeio de balão",
     description: "Passeio de balão ao amanhecer com vista panorâmica.",
     price: 2200,
-    url: "https://invoice.infinitepay.io/melloconsult-1su/iQmk4jmQbt"
+    url: "https://invoice.infinitepay.io/melloconsult-1su/iQmk4jmQbt",
+    purchased: false
 },
 
 {
@@ -228,7 +247,8 @@ export function Gifts() {
     title: "Jantar em Kotor",
     description: "Jantar especial com vista para a Baía de Kotor, Montenegro.",
     price: 960,
-    url: "https://invoice.infinitepay.io/melloconsult-1su/FoxMGuVX5R"
+    url: "https://invoice.infinitepay.io/melloconsult-1su/FoxMGuVX5R",
+    purchased: false
 },
 
 {
@@ -237,7 +257,8 @@ export function Gifts() {
     title: "Aula de culinária local",
     description: "Aula de culinária típica para experiências especiais.",
     price: 620,
-    url: "https://invoice.infinitepay.io/melloconsult-1su/uOBG7i5jvg"
+    url: "https://invoice.infinitepay.io/melloconsult-1su/uOBG7i5jvg",
+    purchased: false
 },
 {
     id: 21,
@@ -245,7 +266,8 @@ export function Gifts() {
     title: "Jantar romântico na praia",
     description: "Jantar à luz de velas com os pés na areia e som do mar.",
     price: 1070,
-    url: " https://invoice.infinitepay.io/melloconsult-1su/ZEME5dfeOM"
+    url: " https://invoice.infinitepay.io/melloconsult-1su/ZEME5dfeOM",
+    purchased: false
 },
 
 {
@@ -254,7 +276,8 @@ export function Gifts() {
     title: "Noite iluminada em Paris",
     description: "Passeio noturno pelos monumentos iluminados de Paris.",
     price: 480,
-    url: "https://invoice.infinitepay.io/melloconsult-1su/eRiaExHXIG"
+    url: "https://invoice.infinitepay.io/melloconsult-1su/eRiaExHXIG",
+    purchased: false
 },
 
 {
@@ -263,7 +286,8 @@ export function Gifts() {
     title: "Aluguel de barco privativo",
     description: "Aluguel de barco por meio dia para explorar praias paradisíacas.",
     price: 2450,
-    url: "https://invoice.infinitepay.io/melloconsult-1su/xGh1W4jPSI"
+    url: "https://invoice.infinitepay.io/melloconsult-1su/xGh1W4jPSI",
+    purchased: false
 },
 
 {
@@ -272,7 +296,8 @@ export function Gifts() {
     title: "Massagem relaxante",
     description: "Massagem relaxante para o casal com aromaterapia.",
     price: 1200,
-    url: "https://invoice.infinitepay.io/melloconsult-1su/AeLh5KlmRY"
+    url: "https://invoice.infinitepay.io/melloconsult-1su/AeLh5KlmRY",
+    purchased: false
 },
 
 {
@@ -281,7 +306,8 @@ export function Gifts() {
     title: "Tour histórico em Kotor",
     description: "Explorar a cidade murada de Kotor com guia local.",
     price: 680,
-    url: "https://invoice.infinitepay.io/melloconsult-1su/KAS3Tp2UV9"
+    url: "https://invoice.infinitepay.io/melloconsult-1su/KAS3Tp2UV9",
+    purchased: false
 },
 
 {
@@ -290,7 +316,8 @@ export function Gifts() {
     title: "Experiência de perfumaria",
     description: "Criar nossos próprios perfumes em uma experiência única.",
     price: 850,
-    url: "https://invoice.infinitepay.io/melloconsult-1su/zesYJqx5JK "
+    url: "https://invoice.infinitepay.io/melloconsult-1su/zesYJqx5JK ",
+    purchased: false
 },
 
 {
@@ -299,7 +326,8 @@ export function Gifts() {
     title: "Ingressos para espetáculo",
     description: "Assistir a um show ou espetáculo especial durante a viagem.",
     price: 110,
-    url: "https://invoice.infinitepay.io/melloconsult-1su/QusA9drlZt"
+    url: "https://invoice.infinitepay.io/melloconsult-1su/QusA9drlZt",
+    purchased: true
 },
 
 {
@@ -308,7 +336,8 @@ export function Gifts() {
     title: "Queijos e vinhos",
     description: "Seleção especial de queijos e vinhos para uma noite perfeita.",
     price: 670,
-    url: "https://invoice.infinitepay.io/melloconsult-1su/EqfUjDOsDS"
+    url: "https://invoice.infinitepay.io/melloconsult-1su/EqfUjDOsDS",
+    purchased: false
 },
 
 {
@@ -317,7 +346,8 @@ export function Gifts() {
     title: "Café da manhã com vista",
     description: "Café da manhã especial com uma vista inesquecível.",
     price: 450,
-    url: "https://invoice.infinitepay.io/melloconsult-1su/KmenDOYH04"
+    url: "https://invoice.infinitepay.io/melloconsult-1su/KmenDOYH04",
+    purchased: false
 },
 
 {
@@ -326,7 +356,8 @@ export function Gifts() {
     title: "Presente surpresa",
     description: "Um mimo especial para nos surpreender na viagem.",
     price: 110,
-    url: "https://invoice.infinitepay.io/melloconsult-1su/X5lYLhctcl "
+    url: "https://invoice.infinitepay.io/melloconsult-1su/X5lYLhctcl ",
+    purchased: true
 },
 {
     id: 31,
@@ -334,7 +365,8 @@ export function Gifts() {
     title: "Passeio de Iate ao pôr do sol",
     description: "Passeio de late ao pôr do sol com champagne e petiscos.",
     price: 1400,
-    url: "https://invoice.infinitepay.io/melloconsult-1su/WnxRAIUOeq"
+    url: "https://invoice.infinitepay.io/melloconsult-1su/WnxRAIUOeq",
+    purchased: false
 },
 
 {
@@ -343,7 +375,8 @@ export function Gifts() {
     title: "Visita a museu",
     description: "Visita guiada a um dos museus mais famosos de Paris.",
     price: 630,
-    url: "https://invoice.infinitepay.io/melloconsult-1su/0qKGrQdTek"
+    url: "https://invoice.infinitepay.io/melloconsult-1su/0qKGrQdTek",
+    purchased: false
 },
 
 {
@@ -352,7 +385,8 @@ export function Gifts() {
     title: "Passeio a cavalo",
     description: "Passeio a cavalo por paisagens naturais incríveis.",
     price: 870,
-    url: "https://invoice.infinitepay.io/melloconsult-1su/i3m9tXLObK"
+    url: "https://invoice.infinitepay.io/melloconsult-1su/i3m9tXLObK",
+    purchased: false
 },
 
 {
@@ -361,7 +395,8 @@ export function Gifts() {
     title: "Noite especial",
     description: "Decoração romântica no quarto com flores, velas e pétalas.",
     price: 670,
-    url: "https://invoice.infinitepay.io/melloconsult-1su/myDdIWBFee"
+    url: "https://invoice.infinitepay.io/melloconsult-1su/myDdIWBFee",
+    purchased: false
 },
 
 {
@@ -369,8 +404,9 @@ export function Gifts() {
     image: Gift35,
     title: "Teleférico no Montenegro",
     description: "Subir de teleférico e aproveitar a vista de tirar o fôlego.",
-    price: 380,
-    url: "https://invoice.infinitepay.io/melloconsult-1su/WL6z8k7jf5"
+    price: 170,
+    url: "https://invoice.infinitepay.io/melloconsult-1su/hcq6Cz3PQE",
+    purchased: false
 },
 
 {
@@ -379,7 +415,8 @@ export function Gifts() {
     title: "Tour gastronômico",
     description: "Tour gastronômico por deliciosas especialidades locais.",
     price: 570,
-    url: " https://invoice.infinitepay.io/melloconsult-1su/mCl0eq7kC9"
+    url: " https://invoice.infinitepay.io/melloconsult-1su/mCl0eq7kC9",
+    purchased: false
 },
 
 {
@@ -387,8 +424,9 @@ export function Gifts() {
     image: Gift37,
     title: "Dia de praia",
     description: "Um dia relaxante em uma praia exclusiva e tranquila.",
-    price: 640,
-    url: "https://invoice.infinitepay.io/melloconsult-1su/oOF1bqSRSP"
+    price: 120,
+    url: "https://invoice.infinitepay.io/melloconsult-1su/phqYnFNCcK",
+    purchased: false
 },
 
 {
@@ -396,8 +434,9 @@ export function Gifts() {
     image: Gift38,
     title: "Piscina de borda infinita",
     description: "Um dia em uma piscina de borda infinita com vista.",
-    price: 820,
-    url: "https://invoice.infinitepay.io/melloconsult-1su/OvlR39w7oP"
+    price: 130,
+    url: "https://invoice.infinitepay.io/melloconsult-1su/Idlpso7aQG",
+    purchased: false
 },
 
 {
@@ -406,7 +445,8 @@ export function Gifts() {
     title: "Passeio de helicóptero",
     description: "Passeio de helicóptero para ver a cidade e paisagens de cima.",
     price: 1400,
-    url: "https://invoice.infinitepay.io/melloconsult-1su/DBZgaeGTZ6"
+    url: "https://invoice.infinitepay.io/melloconsult-1su/DBZgaeGTZ6",
+    purchased: false
 },
 
 {
@@ -415,15 +455,17 @@ export function Gifts() {
     title: "Piquenique romântico",
     description: "Piquenique especial preparado só para nós.",
     price: 320,
-    url: " https://invoice.infinitepay.io/melloconsult-1su/27xfoTRzxS"
+    url: " https://invoice.infinitepay.io/melloconsult-1su/27xfoTRzxS",
+    purchased: false
 },
 {
     id: 41,
     image: Gift41,
     title: "Visita a adega",
     description: "Visita e degustação em uma adega local tradicional.",
-    price: 380,
-    url: "https://invoice.infinitepay.io/melloconsult-1su/UEjM5mf10B "
+    price: 180,
+    url: "https://invoice.infinitepay.io/melloconsult-1su/Lut10mfudH",
+    purchased: false
 },
 
 {
@@ -432,7 +474,8 @@ export function Gifts() {
     title: "Aula de pintura",
     description: "Uma experiência criativa pintando nossa própria obra.",
     price: 620,
-    url: "https://invoice.infinitepay.io/melloconsult-1su/9a7hvlVJYL"
+    url: "https://invoice.infinitepay.io/melloconsult-1su/9a7hvlVJYL",
+    purchased: false
 },
 
 {
@@ -441,7 +484,8 @@ export function Gifts() {
     title: "Passeio de trem cênico",
     description: "Viagem de trem por paisagens deslumbrantes.",
     price: 560,
-    url: "https://invoice.infinitepay.io/melloconsult-1su/jKIgBlYXff"
+    url: "https://invoice.infinitepay.io/melloconsult-1su/jKIgBlYXff",
+    purchased: false
 },
 
 {
@@ -450,7 +494,8 @@ export function Gifts() {
     title: "Jantar em restaurante",
     description: "Jantar especial em um restaurante premiado.",
     price: 900,
-    url: "https://invoice.infinitepay.io/melloconsult-1su/1Lw0pigPxp"
+    url: "https://invoice.infinitepay.io/melloconsult-1su/1Lw0pigPxp",
+    purchased: false
 },
 
 {
@@ -459,7 +504,8 @@ export function Gifts() {
     title: "Banho de hidromassagem",
     description: "Banho de hidromassagem com sais e espuma.",
     price: 600,
-    url: "https://invoice.infinitepay.io/melloconsult-1su/QJFJPtvCy7"
+    url: "https://invoice.infinitepay.io/melloconsult-1su/QJFJPtvCy7",
+    purchased: false
 },
 
 {
@@ -468,7 +514,8 @@ export function Gifts() {
     title: "Cesta de lembranças",
     description: "Uma cesta com produtos típicos da viagem.",
     price: 140,
-    url: "https://invoice.infinitepay.io/melloconsult-1su/Ad6HNafjwm"
+    url: "https://invoice.infinitepay.io/melloconsult-1su/Ad6HNafjwm",
+    purchased: true
 },
 
 {
@@ -477,7 +524,8 @@ export function Gifts() {
     title: "Mergulho",
     description: "Experiência de mergulho para explorar o mar cristalino.",
     price: 770,
-    url: "https://invoice.infinitepay.io/melloconsult-1su/ZL7j88by8Z"
+    url: "https://invoice.infinitepay.io/melloconsult-1su/ZL7j88by8Z",
+    purchased: false
 },
 
 {
@@ -485,8 +533,9 @@ export function Gifts() {
     image: Gift48,
     title: "Passeio em jardins",
     description: "Passeio pelos jardins mais lindos e românticos.",
-    price: 280,
-    url: "https://invoice.infinitepay.io/melloconsult-1su/S3npwR3qAx"
+    price: 150,
+    url: " https://invoice.infinitepay.io/melloconsult-1su/GkfiAf0MDW",
+    purchased: false
 },
 
 {
@@ -494,8 +543,9 @@ export function Gifts() {
     image: Gift49,
     title: "Aula de drinks",
     description: "Aprender a preparar drinks em uma aula divertida.",
-    price: 340,
-    url: "https://invoice.infinitepay.io/melloconsult-1su/DQb05FFUx7"
+    price: 180,
+    url: "https://invoice.infinitepay.io/melloconsult-1su/CEhtA1BZue",
+    purchased: false
 },
 
 {
@@ -503,8 +553,9 @@ export function Gifts() {
     image: Gift50,
     title: "Presente especial para nós",
     description: "Um presente especial para tornar nossa lua de mel ainda mais inesquecível.",
-    price: 600,
-    url: "https://invoice.infinitepay.io/melloconsult-1su/ElynSmbWp0"
+    price: 150,
+    url: "https://invoice.infinitepay.io/melloconsult-1su/dvOvk05NH5",
+    purchased: false
 },
 
                 ]}
